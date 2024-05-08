@@ -13,3 +13,10 @@ In the Function we take the IP address as input in the form of "x.x.x.x".
 and dispay  the result to the output area.
 similar function for octal and hexadecimal.
 
+
+WE create the another Funtion for check the validation of IP address.
+in this function  splits the input IP address.
+it check the there are length are 4 or not .if not, it returns false.
+then covert into number.and check the arry are empty or not empty.with the range(0-255)
+if  any validation are fail return false 
+otherwise return ture.
