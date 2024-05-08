@@ -1,6 +1,6 @@
 
 
-
+// create Function for convert the IP address to binary
 function binary(){
     let value = document.querySelector("#mytext").value
     
@@ -17,6 +17,8 @@ function binary(){
 
 
 }
+
+// create Function for convert the IP address to octal
 function octa(){
     
     let value = document.querySelector("#mytext").value
@@ -36,7 +38,7 @@ function octa(){
 
 
 
-
+// create Function for the convert the IP addrss to hexadecimal
 function hexa(){
     let value = document.querySelector("#mytext").value
     value = value.split(".")
@@ -53,7 +55,7 @@ function hexa(){
 
 }
 
-
+// create the function for check the validation in  IP address
 function valid(){
     let value = document.querySelector("#mytext").value
     value = value.split(".")
@@ -80,7 +82,7 @@ function valid(){
 }
 
 
-
+// acess the button from its id and add eventListener
 let clicked = document.querySelector("#btn1")
 
 clicked.addEventListener( "click",() =>{
